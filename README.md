@@ -14,7 +14,7 @@
 
 ## Project Details
 
-* [SpringBoot Server](https://github.com/Coffee-Street/SpringBootServer)
+* [Strada](https://github.com/Coffee-Street/strada)
 * [Application](https://github.com/Coffee-Street/Application)
 
 
