@@ -70,7 +70,7 @@
   - status code 200 success
 
   - status code 304 unauthorized
-  - status code 403 forbidden
+  - status code 400 bad request
 
   **Response type**
   - JSON List
