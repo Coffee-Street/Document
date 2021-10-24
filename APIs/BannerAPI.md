@@ -62,8 +62,6 @@
         "message":"example message2",
         "backgroundColor":"#ffffff",
         "fontColor":"#000000"
-        
       }
-      
     ]
   
