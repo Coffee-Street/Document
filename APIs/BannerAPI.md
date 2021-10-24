@@ -31,7 +31,7 @@
     |title|String|배너 상단 타이틀|
     |imageUrl|String|배너 이미지 주소|
     |message|String|배너 하단 메시지|
-    |backgoundColor|String|배너 배경 색|
+    |backgroundColor|String|배너 배경 색|
     |fontColor|String|배너 글자 색|
         
   **Document**
@@ -62,8 +62,6 @@
         "message":"example message2",
         "backgroundColor":"#ffffff",
         "fontColor":"#000000"
-        
       }
-      
     ]
   
