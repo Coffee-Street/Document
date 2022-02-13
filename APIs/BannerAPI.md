@@ -31,11 +31,6 @@
     |title|String|배너 상단 타이틀|
     |imageUrl|String|배너 이미지 주소|
     |message|String|배너 하단 메시지|
-<<<<<<< HEAD
-        
-    example
-    ```
-=======
     |backgroundColor|String|배너 배경 색|
     |fontColor|String|배너 글자 색|
         
@@ -51,35 +46,22 @@
   **example**
 
   
->>>>>>> b88f957343990df8b1ff63fdc140de5412e43cca
     [
       {
         "code":"banner1",
         "title":"example",
         "imageUrl":"http://example.com",
-<<<<<<< HEAD
-        "message":"example message"
-=======
         "message":"example message",
         "backgroundColor":"#ffffff",
         "fontColor":"#000000"
->>>>>>> b88f957343990df8b1ff63fdc140de5412e43cca
       },
         {
         "code":"banner2",
         "title":"example2",
         "imageUrl":"http://example2.com",
-<<<<<<< HEAD
-        "message":"example message2"
-      }
-      
-    ]
-    ```
-=======
         "message":"example message2",
         "backgroundColor":"#ffffff",
         "fontColor":"#000000"
       }
     ]
   
->>>>>>> b88f957343990df8b1ff63fdc140de5412e43cca
