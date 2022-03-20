@@ -60,6 +60,11 @@
   5. 아니면 payment approval api를 호출하는 웹서버 페이지를 하나 더 두는 방법도 고려해볼만함
   6. 서버의 payment approval api할때 자동 redirection이기 때문에 auth 인증 헤더를 전달할 수 없음
 
+* 해결 방법 
+  1. tid와 pg_token 맵핑은 home.js와 같이 별도의 결제 웹 서버를 만든다. 예제와 같이 웹 서버에서 ready api를 호출한 뒤 tid를 브라우저의 localstorage에 저장하고 redirection url로 넘어가자
+  2. 웹 페이지는 결제 준비, 승인 페이지 2개로 나눈다.(승인 페이지는 페이지 진입 후 사용자와 상호작용 없이 바로 승인 api를 호출할수도 있다.)
+  3. 위 방법처럼 클라이언트에서 모든 결제를 진행하고 결과만 strada서버에 넘기면 문제 6번도 자연스럽게 해결 가능하다.
+
 ### 7. Milestones
 
 Todo
