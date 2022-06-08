@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="p-Txsvb8DycO-Tz0CJlA" name="페이지-1">
-        <mxGraphModel dx="1199" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1590" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,10 +13,10 @@
                 <mxCell id="74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="54" vertex="1">
                     <mxGeometry x="45" y="425" width="10" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="54">
+                <mxCell id="97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="54" vertex="1">
                     <mxGeometry x="45" y="520" width="10" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="DB 저장" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.027;entryY=0.052;exitX=1.027;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="54">
+                <mxCell id="102" value="DB 저장" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.027;entryY=0.052;exitX=1.027;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="54" edge="1">
                     <mxGeometry x="-0.2697" relative="1" as="geometry">
                         <mxPoint x="55" y="590.005" as="sourcePoint"/>
                         <Array as="points">
@@ -27,7 +27,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="96" value="Approve 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.929;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.24;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="54">
+                <mxCell id="96" value="approve 응답" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.929;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.24;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" parent="54" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="44.999999999999886" y="630.5419999999999" as="sourcePoint"/>
                         <mxPoint x="-147.31000000000003" y="630.0049999999999" as="targetPoint"/>
@@ -115,13 +115,13 @@
                 <mxCell id="84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="61" vertex="1">
                     <mxGeometry x="45" y="360" width="10" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="Approve 요청" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=-0.044;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="61">
+                <mxCell id="98" value="approve 요청" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=-0.044;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" parent="61" edge="1">
                     <mxGeometry width="60" relative="1" as="geometry">
                         <mxPoint x="-140" y="541" as="sourcePoint"/>
                         <mxPoint x="46.819999999999936" y="540.5549999999998" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="61">
+                <mxCell id="99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="61" vertex="1">
                     <mxGeometry x="45" y="530" width="10" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="Strada" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#0000CC;" parent="1" vertex="1">
@@ -164,9 +164,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" value="App Scheme Redirect 요청" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=1.074;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.044;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
-                    <mxGeometry width="60" relative="1" as="geometry">
+                    <mxGeometry x="-0.0223" width="60" relative="1" as="geometry">
                         <mxPoint x="215.74" y="530.875" as="sourcePoint"/>
                         <mxPoint x="408.56000000000006" y="531.435" as="targetPoint"/>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="88" value="App Scheme Redirect 처리" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.929;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.24;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
@@ -181,13 +182,13 @@
                 <mxCell id="77" value="Safari" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#007FFF;" parent="1" vertex="1">
                     <mxGeometry x="130" y="315" width="50" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="approve 요청" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=1.074;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.044;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                <mxCell id="95" value="approve 요청" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=1.074;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.044;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry width="60" relative="1" as="geometry">
                         <mxPoint x="216" y="629.9949999999999" as="sourcePoint"/>
                         <mxPoint x="408.81999999999994" y="630.5549999999998" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="101" value="tid &amp;amp; card 또는 money를 포함한 info" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.24;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                <mxCell id="101" value="tid &amp;amp; card 또는 money를 포함한 info" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.24;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="605.31" y="670.0919999999999" as="sourcePoint"/>
                         <mxPoint x="419" y="669.55" as="targetPoint"/>
